@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest HTML-CSS-JS-intermediário</title>
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <section class="section-title">
+                <ul class="text">
+                    <li><h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1></li>
+                    <li><p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p></li>
+                </ul>
+            </section>
+            
+            <section class="section-form">
+                <form action="index.html" method="get">
+                    <div class="input-itens">
+                        <ul class="input-item">
+                            <li><input class="input-action"  type="text" name="name" id="user-name" placeholder="Nome completo *" required></li>
+                            <li><p class="error-message hide-error-message">Campo Obrigatório</p></li>
+                        </ul>
+                        
+
+                        <ul class="input-item">
+                            <li><input class="input-action"  type="email" name="email" id="user-email" placeholder="Email *" required></li>
+                            <li><p class="error-message hide-error-message">Campo Obrigatório</p></li>
+                        </ul>
+
+                        <ul class="input-item">
+                            <li><input class="input-action"  type="tel" name="phone" id="user-phone" placeholder="Telefone *" required></li>
+                            <li><p class="error-message hide-error-message">Campo Obrigatório</p></li>
+                        </ul>
+
+                        <ul class="input-item">
+                            <li><textarea class="input-action" name="user-mesage" id="user-message" cols="35" rows="10" placeholder="Mensagem *"></textarea></li>
+                            <li><p class="error-message hide-error-message">Campo Obrigatório</p></li>
+                        </ul>
+                    </div>
+
+                    <p>*campos obrigatórios</p>
+
+                    <button>
+                        <input type="submit" value="Enviar" id="submit-button">
+                    </button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+</html>
